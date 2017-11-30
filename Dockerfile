@@ -1,4 +1,4 @@
-FROM nginx
+FROM bitnami/nginx
 
 COPY wrapper.sh /
 
