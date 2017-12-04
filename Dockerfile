@@ -1,7 +1,3 @@
 FROM bitnami/nginx
 
-COPY wrapper.sh /
-
-COPY html /usr/share/nginx/html
-
-CMD ["/wrapper.sh"]
+COPY html/index.html /app
